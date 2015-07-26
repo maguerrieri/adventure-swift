@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		950EF7801B64AEF300806996 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EF77F1B64AEF300806996 /* Verb.swift */; };
+		950EF7821B64AF0900806996 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EF7811B64AF0900806996 /* Player.swift */; };
+		950EF7841B64AF1F00806996 /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EF7831B64AF1F00806996 /* Noun.swift */; };
+		956432B71B6070C800E646C1 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956432B61B6070C800E646C1 /* GameObject.swift */; };
+		956432B91B629D9000E646C1 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956432B81B629D9000E646C1 /* Room.swift */; };
 		95D971681B5B371800C2E11A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D971671B5B371800C2E11A /* AppDelegate.swift */; };
 		95D9716A1B5B371800C2E11A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D971691B5B371800C2E11A /* ViewController.swift */; };
 		95D9716D1B5B371800C2E11A /* Adventure_Engine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95D9716B1B5B371800C2E11A /* Adventure_Engine.xcdatamodeld */; };
@@ -14,6 +19,7 @@
 		95D971721B5B371800C2E11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D971701B5B371800C2E11A /* Main.storyboard */; };
 		95D9717D1B5B371800C2E11A /* Adventure_EngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D9717C1B5B371800C2E11A /* Adventure_EngineTests.swift */; };
 		95D971881B5B371800C2E11A /* Adventure_EngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D971871B5B371800C2E11A /* Adventure_EngineUITests.swift */; };
+		95D971961B5B3B1D00C2E11A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 95D971951B5B3B1D00C2E11A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		950EF77F1B64AEF300806996 /* Verb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
+		950EF7811B64AF0900806996 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		950EF7831B64AF1F00806996 /* Noun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
+		956432B61B6070C800E646C1 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		956432B81B629D9000E646C1 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		95D971641B5B371800C2E11A /* Adventure Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adventure Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D971671B5B371800C2E11A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D971691B5B371800C2E11A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		95D971831B5B371800C2E11A /* Adventure EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adventure EngineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D971871B5B371800C2E11A /* Adventure_EngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure_EngineUITests.swift; sourceTree = "<group>"; };
 		95D971891B5B371800C2E11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D971951B5B3B1D00C2E11A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		950EF77E1B64AEE900806996 /* Lexicon */ = {
+			isa = PBXGroup;
+			children = (
+				950EF77F1B64AEF300806996 /* Verb.swift */,
+				950EF7831B64AF1F00806996 /* Noun.swift */,
+			);
+			name = Lexicon;
+			sourceTree = "<group>";
+		};
 		95D9715B1B5B371800C2E11A = {
 			isa = PBXGroup;
 			children = (
+				95D971951B5B3B1D00C2E11A /* .gitignore */,
 				95D971661B5B371800C2E11A /* Adventure Engine */,
 				95D9717B1B5B371800C2E11A /* Adventure EngineTests */,
 				95D971861B5B371800C2E11A /* Adventure EngineUITests */,
@@ -97,12 +119,18 @@
 		95D971661B5B371800C2E11A /* Adventure Engine */ = {
 			isa = PBXGroup;
 			children = (
+				95FAE9051B5DBA52005CCFA6 /* UI */,
+				95FAE9041B5DBA4C005CCFA6 /* Navigation */,
+				95FAE9031B5DBA44005CCFA6 /* IO */,
+				95FAE9021B5DBA20005CCFA6 /* Control */,
+				95FAE9011B5DBA00005CCFA6 /* Character */,
 				95D971671B5B371800C2E11A /* AppDelegate.swift */,
 				95D971691B5B371800C2E11A /* ViewController.swift */,
 				95D9716E1B5B371800C2E11A /* Assets.xcassets */,
 				95D971701B5B371800C2E11A /* Main.storyboard */,
 				95D971731B5B371800C2E11A /* Info.plist */,
 				95D9716B1B5B371800C2E11A /* Adventure_Engine.xcdatamodeld */,
+				956432B61B6070C800E646C1 /* GameObject.swift */,
 			);
 			path = "Adventure Engine";
 			sourceTree = "<group>";
@@ -123,6 +151,44 @@
 				95D971891B5B371800C2E11A /* Info.plist */,
 			);
 			path = "Adventure EngineUITests";
+			sourceTree = "<group>";
+		};
+		95FAE9011B5DBA00005CCFA6 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				950EF7811B64AF0900806996 /* Player.swift */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		95FAE9021B5DBA20005CCFA6 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				950EF77E1B64AEE900806996 /* Lexicon */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		95FAE9031B5DBA44005CCFA6 /* IO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		95FAE9041B5DBA4C005CCFA6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				956432B81B629D9000E646C1 /* Room.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		95FAE9051B5DBA52005CCFA6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D9716F1B5B371800C2E11A /* Assets.xcassets in Resources */,
+				95D971961B5B3B1D00C2E11A /* .gitignore in Resources */,
 				95D971721B5B371800C2E11A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950EF7801B64AEF300806996 /* Verb.swift in Sources */,
+				956432B71B6070C800E646C1 /* GameObject.swift in Sources */,
 				95D9716D1B5B371800C2E11A /* Adventure_Engine.xcdatamodeld in Sources */,
 				95D9716A1B5B371800C2E11A /* ViewController.swift in Sources */,
+				950EF7821B64AF0900806996 /* Player.swift in Sources */,
+				950EF7841B64AF1F00806996 /* Noun.swift in Sources */,
 				95D971681B5B371800C2E11A /* AppDelegate.swift in Sources */,
+				956432B91B629D9000E646C1 /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +550,7 @@
 				95D9718E1B5B371800C2E11A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95D9718F1B5B371800C2E11A /* Build configuration list for PBXNativeTarget "Adventure EngineTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +559,7 @@
 				95D971911B5B371800C2E11A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95D971921B5B371800C2E11A /* Build configuration list for PBXNativeTarget "Adventure EngineUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +568,7 @@
 				95D971941B5B371800C2E11A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
