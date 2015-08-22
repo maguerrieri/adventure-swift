@@ -8,14 +8,17 @@
 
 import Foundation
 
-class Noun: Equatable {
+class Noun: Equatable, CustomStringConvertible {
     var name: String
     var ref: GameObject
+    
+    var description: String {
+        return self.name
+    }
     
     init(name: String, ref: GameObject) {
         self.name = name
         self.ref = ref
-        
     }
 }
 
